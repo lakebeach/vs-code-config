@@ -1,0 +1,21 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+b",                  "command": "editor.action.goToDeclaration" },
+    { "key": "ctrl+r ctrl+r",           "command": "editor.action.rename",
+                                           "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+,",                "command": "editor.action.addSelectionToNextFindMatch",
+                                           "when": "editorFocus" },
+    { "key": "ctrl+shift+s",            "command": "workbench.action.files.saveAll" },
+    { "key": "ctrl+shift+n",            "command": "workbench.action.quickOpen" },
+    { "key": "ctrl+t",                  "command": "workbench.action.tasks.runTask" },
+    { "key": "ctrl+shift+t",            "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+d",                  "command": "lafe.duplicateCode",
+                                           "when": "editorTextFocus && !editorReadonly"},
+    { "key": "alt+enter",               "command": "cmstead.jsRefactor.selectRefactoring" ,
+                                           "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+r ctrl+n",           "command": "cmstead.jsRefactor.extractVariable",
+                                           "when": "editorHasSelection && !editorReadonly && editorLangId == 'javascript'" },
+    { "key": "ctrl+r ctrl+v",           "command": "cmstead.jsRefactor.negateExpression",
+                                           "when": "editorHasSelection && !editorReadonly && editorLangId == 'javascript'" },
+    { "key": "ctrl+alt+c",              "command": "eslint.executeAutofix"}
+]

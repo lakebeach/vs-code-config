@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.exclude": {
+        "**/*.orig": true,
+        "**/.npm-cache": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+    "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true
+}
