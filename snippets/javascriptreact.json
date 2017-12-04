@@ -26,18 +26,12 @@
 	},
 	"console.log": {
 		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$0"
-		],
+		"body": "console.log('$1');$0",
 		"description": "Log output to console"
 	},
 	"import": {
 		"prefix": "imp",
-		"body": [
-			"import ${2:entries} from '${1:specifier}';",
-			"$0"
-		],
+		"body": "import ${2:entries} from '${1:specifier}';$0",
 		"description": "import statement"
 	}
 }
