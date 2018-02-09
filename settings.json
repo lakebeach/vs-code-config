@@ -20,5 +20,6 @@
     "gitlens.codeLens.scopes": [
         "document",
         "containers"
-    ]
+    ],
+    "git.autofetch": true
 }
