@@ -16,5 +16,9 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.sideBar.location": "right",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ]
 }
