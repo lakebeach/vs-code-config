@@ -5,7 +5,7 @@
                                            "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly" },
     { "key": "ctrl+,",                "command": "editor.action.addSelectionToNextFindMatch",
                                            "when": "editorFocus" },
-    { "key": "ctrl+c",                  "command": "workbench.action.terminal.copySelection",
+    { "key": "ctrl+c",                  "command": "editor.action.clipboardCopyAction",
                                            "when": "terminalFocus && terminalTextSelected" },
     { "key": "ctrl+x",                  "command": "editor.action.clipboardCutAction",
                                            "when": "editorTextFocus && !editorReadonly" },
