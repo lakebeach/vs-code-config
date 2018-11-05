@@ -36,5 +36,17 @@
 		"prefix": "imp",
 		"body": "import ${2:entries} from '${1:specifier}';$0",
 		"description": "import statement"
+	},
+	"import style": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "imps",
+		"body": "import ${2:style} from '${1:./style}';$0",
+		"description": "import style statement"
+	},
+	"Component constructor": {
+		"scope": "javascriptreact",
+		"prefix": "cc",
+		"body": "constructor(props, context) {\nsuper(props, context);\n$0\n}",
+		"description": "preact Component constructor"
 	}
 }
