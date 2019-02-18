@@ -17,12 +17,12 @@
 	// }
 	"angle brackets": {
 		"prefix": "ab",
-		"body": "[]$0",
+		"body": "[$0]",
 		"description": "[]"
 	},
 	"curly brackets": {
 		"prefix": "cb",
-		"body": "{}$0",
+		"body": "{$0}",
 		"description": "{}"
 	},
 	"console.log": {
@@ -40,7 +40,7 @@
 	"import style": {
 		"scope": "javascript,javascriptreact",
 		"prefix": "imps",
-		"body": "import ${2:style} from '${1:./style}';$0",
+		"body": "import ${2:css} from '${1:./style}';$0",
 		"description": "import style statement"
 	},
 	"Component constructor": {
