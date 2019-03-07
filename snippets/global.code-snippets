@@ -25,6 +25,16 @@
 		"body": "{$0}",
 		"description": "{}"
 	},
+	"logical and": {
+		"prefix": "and",
+		"body": "&& $0",
+		"description": "&&"
+	},
+	"logical or": {
+		"prefix": "or",
+		"body": "|| $0",
+		"description": "||"
+	},
 	"console.log": {
 		"scope": "javascript,javascriptreact",
 		"prefix": "log",
