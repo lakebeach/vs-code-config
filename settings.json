@@ -22,5 +22,7 @@
         "containers"
     ],
     "git.autofetch": true,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "html.format.indentInnerHtml": true,
+    "editor.tabSize": 2
 }
