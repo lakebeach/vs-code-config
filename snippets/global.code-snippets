@@ -58,5 +58,17 @@
 		"prefix": "cc",
 		"body": "constructor(props, context) {\nsuper(props, context);\n$0\n}",
 		"description": "preact Component constructor"
+	},
+	"use state hook": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "us",
+		"body": "const [${2},${3:set}] = useState(${1});$0",
+		"description": "useState hook statement"
+	},
+	"use hook": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "uh",
+		"body": "const [${2},${3:set}] = '${1:use}';$0",
+		"description": "use hook statement"
 	}
 }
