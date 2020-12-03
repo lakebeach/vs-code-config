@@ -28,5 +28,6 @@
                                            "when": "editorHasSelection && !editorReadonly && editorLangId == 'javascript'" },
     { "key": "ctrl+r ctrl+v",           "command": "cmstead.jsRefactor.negateExpression",
                                            "when": "editorHasSelection && !editorReadonly && editorLangId == 'javascript'" },
-    { "key": "ctrl+alt+c",              "command": "eslint.executeAutofix"}
+    { "key": "ctrl+alt+c",              "command": "eslint.executeAutofix" },
+    { "key": "ctrl+alt+s",              "command": "stylelint.executeAutofix" }
 ]

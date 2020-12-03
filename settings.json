@@ -1,7 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
+    "editor.wordWrapColumn": 120,
+    "emmet.showSuggestionsAsSnippets": true,
     "files.exclude": {
         "**/*.orig": true,
         "**/.npm-cache": true,
@@ -21,11 +24,13 @@
     ],
     "html.format.indentInnerHtml": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "npm.enableTouchbar": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "liveshare.presence": true
 }

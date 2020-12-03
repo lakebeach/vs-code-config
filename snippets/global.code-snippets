@@ -47,10 +47,28 @@
 		"body": "import ${2:entries} from '${1:specifier}';$0",
 		"description": "import statement"
 	},
+	"import classnames": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "impc",
+		"body": "import cx from 'classnames';$0",
+		"description": "import classnames statement"
+	},
+	"import prop-types": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "impp",
+		"body": "import PropTypes from 'prop-types';\n\n${1:ComponentName}.propTypes = {\n  ${2:prop}: PropTypes.$3,\n  $0\n};\n",
+		"description": "import PropTypes statement"
+	},
+	"import react": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "impr",
+		"body": "import React from 'react';$0",
+		"description": "import react statement"
+	},
 	"import style": {
 		"scope": "javascript,javascriptreact",
 		"prefix": "imps",
-		"body": "import ${2:css} from '${1:./style}';$0",
+		"body": "import ${2:styles} from './${1:ComponentName}.module.scss';$0",
 		"description": "import style statement"
 	},
 	"Component constructor": {
