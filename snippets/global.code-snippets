@@ -17,13 +17,18 @@
 	// }
 	"angle brackets": {
 		"prefix": "ab",
-		"body": "[$0]",
-		"description": "[]"
+		"body": "<$0>",
+		"description": "<>"
 	},
 	"curly brackets": {
 		"prefix": "cb",
 		"body": "{$0}",
 		"description": "{}"
+	},
+	"square brackets": {
+		"prefix": "sb",
+		"body": "[$0]",
+		"description": "[]"
 	},
 	"logical and": {
 		"prefix": "and",
